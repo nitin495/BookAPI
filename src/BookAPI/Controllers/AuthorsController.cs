@@ -22,7 +22,7 @@ namespace BookAPI.Controllers
             _bookRepository = bookRepository;
             _countryRepository = countryRepository;
         }
-        //api/Authors
+        //api/Authors//
         [HttpGet]
         [ProducesResponseType(200, Type = typeof(IEnumerable<AuthorDto>))]
         [ProducesResponseType(400)]
